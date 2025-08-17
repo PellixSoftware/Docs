@@ -7,11 +7,11 @@ description: >-
 
 # Vector
 
-### Vector2
+## Vector2
 
 A `Vector2` represents a point or direction in 2D space, containing `x` and `y` components.
 
-#### Constructors
+### Constructors
 
 **`Vector2.new()`**
 
@@ -35,7 +35,7 @@ Creates a new `Vector2` with the specified components.
 local StartPosition = Vector2.new(100, 250)
 ```
 
-#### Properties
+### Properties
 
 **`x`**
 
@@ -53,7 +53,7 @@ MyVector.y = 50
 -- MyVector is now (10, 50)
 ```
 
-#### Methods
+### Methods
 
 **`vec:Length()`**
 
@@ -95,7 +95,7 @@ local NormalizedVector = DirectionVector:Normalize() -- NormalizedVector is (0, 
 -- The original vector 'DirectionVector' remains unchanged.
 ```
 
-#### Operators
+### Operators
 
 `Vector2` objects support standard arithmetic operators.
 
@@ -116,11 +116,11 @@ local ResultScalarDivide = VectorOne / 10     -- (1, 2)
 
 ***
 
-### Vector3
+## Vector3
 
 A `Vector3` represents a point or direction in 3D space, containing `x`, `y`, and `z` components.
 
-#### Constructors
+### Constructors
 
 **`Vector3.new()`**
 
@@ -141,13 +141,13 @@ Creates a new `Vector3` with the specified components.
 local Position = Vector3.new(10, 50, -20)
 ```
 
-#### Properties
+### Properties
 
 **`x`, `y`, `z`**
 
 * (`number`) The x, y, and z components of the vector. Can be read from or assigned to.
 
-#### Methods
+### Methods
 
 **`vec:Length()`**
 
@@ -210,17 +210,17 @@ local Vector3D = Vector3.new(10, 20, 30)
 local Vector2D = Vector3D:To2D() -- Vector2D is (10, 20)
 ```
 
-#### Operators
+### Operators
 
 `Vector3` supports the same arithmetic operators as `Vector2` for both vector-vector and vector-scalar operations.
 
 ***
 
-### Vector4
+## Vector4
 
 A `Vector4` represents a point in 4D space, containing `x`, `y`, `z`, and `w` components. Basically, a representation of a quaternion in our case.
 
-#### Constructors
+### Constructors
 
 **`Vector4.new()`**
 
@@ -240,13 +240,13 @@ Creates a new `Vector4` with the specified components.
 local RedColor = Vector4.new(1, 0, 0, 1)
 ```
 
-#### Properties
+### Properties
 
 **`x`, `y`, `z`, `w`**
 
 * (`number`) The x, y, z, and w components of the vector.
 
-#### Methods
+### Methods
 
 **`vec:ToEulerAngles()`**
 
@@ -254,6 +254,6 @@ Converts the `Vector4` (when used as a quaternion) into a `Vector3` representing
 
 * **Returns:** (`Vector3`) A `Vector3` where x, y, and z correspond to pitch, yaw, and roll.
 
-#### Operators
+### Operators
 
 `Vector4` supports the same arithmetic operators as `Vector2` and `Vector3`.
