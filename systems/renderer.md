@@ -1,8 +1,8 @@
 ---
 description: >-
   The Renderer is a global object used to perform all drawing operations. You do
-  not create an instance of it; instead, you call its methods directly. It is
-  typically available within a rendering event.
+  not create an instance of it; instead, you call its methods directly from the
+  callback.
 ---
 
 # Renderer
