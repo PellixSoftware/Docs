@@ -23,3 +23,7 @@
 
 * [Game Objects](quick-start/game-objects.md)
 * [Events & Threads API](quick-start/events-and-threads-api.md)
+
+***
+
+* [Scripting API: Configuration (Cfg)](scripting-api-configuration-cfg.md)
