@@ -9,7 +9,6 @@
 ## Systems
 
 * [Schema](systems/schema.md)
-* [Renderer](systems/renderer.md)
 * [Memory](systems/memory.md)
 
 ## Game Objects
@@ -23,7 +22,5 @@
 
 * [Game Objects](quick-start/game-objects.md)
 * [Events & Threads API](quick-start/events-and-threads-api.md)
-
-***
-
-* [Scripting API: Configuration (Cfg)](scripting-api-configuration-cfg.md)
+* [Rendering](quick-start/rendering.md)
+* [Configuration (Cfg)](quick-start/configuration-cfg.md)
