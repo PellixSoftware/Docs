@@ -49,6 +49,8 @@ Draws a circle, thickness has no effect when filled == true, `num_segments` sele
 ```lua
 draw.polyline(points: table< { [1] = x, [2] = y } | x, y... >, color: number [, closed: boolean = false, thickness: number = 1.0 ])
 
+draw.convex_poly_filled(points: table< { [1] = x, [2] = y } | x, y... >, color: number [, closed: boolean = false, thickness: number = 1.0 ])
+
 -- Example
 draw.polyline({
 	5, 5, -- { 5, 5 }
@@ -59,7 +61,7 @@ draw.polyline({
 ```
 {% endcode %}
 
-Draws a polyline.\
+Draws a polyline. `convex_poly_filled` draws filled convex polygon.\
 Accepts array of 2-dimensional vectors or a repeated x,y sequence as numbers
 
 

@@ -26,3 +26,12 @@ schema.get_class_size([library_name: string = "client.dll", ] class_name: string
 {% endcode %}
 
 Returns schema class size in bytes.
+
+
+
+```lua
+schema.get_interface(library_name: string, interface_name: string): number
+```
+
+Returns interface address. See https://github.com/a2x/cs2-dumper/blob/main/output/interfaces.json for available interfaces.
+
