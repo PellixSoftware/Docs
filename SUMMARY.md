@@ -1,26 +1,45 @@
 # Table of contents
 
+* [Overview](README.md)
+* [Extensions](extensions.md)
+* [Performance guidelines](performance-guidelines.md)
+
 ## Types
 
-* [Vector](README.md)
-* [Color](types/color.md)
-* [Pointer](types/pointer.md)
+* [entity](types/entity/README.md)
+  * [CBasePlayerController](types/entity/cbaseplayercontroller.md)
+* [vector](types/vector/README.md)
+  * [vector<2>](types/vector/vector-less-than-2-greater-than.md)
+  * [vector<3>](types/vector/vector-less-than-3-greater-than.md)
+  * [vector<4>](types/vector/vector-less-than-4-greater-than.md)
+* [panel](types/panel.md)
 
-## Systems
+## Functions
 
-* [Schema](systems/schema.md)
-* [Memory](systems/memory.md)
+* [set\_callback](functions/set_callback.md)
+* [make\_hash](functions/make_hash.md)
+* [get\_builtin\_metatable](functions/get_builtin_metatable.md)
 
-## Game Objects
+## Tables
 
-* [Entitiy](game-objects/entitiy.md)
-* [WeaponBase](game-objects/weaponbase.md)
-* [PlayerPawn](game-objects/playerpawn.md)
-* [PlayerController](game-objects/playercontroller.md)
+* [globals](tables/globals.md)
+* [memory](tables/memory.md)
+* [schema](tables/schema.md)
+* [draw](tables/draw.md)
+* [config](tables/config.md)
+* [entitylist](tables/entitylist.md)
+* [trace](tables/trace.md)
+* [input](tables/input.md)
+* [panorama](tables/panorama.md)
 
-## Quick Start
+## Callbacks
 
-* [Game Objects](quick-start/game-objects.md)
-* [Events & Threads API](quick-start/events-and-threads-api.md)
-* [Rendering](quick-start/rendering.md)
-* [Configuration (Cfg)](quick-start/configuration-cfg.md)
+* [draw](callbacks/draw.md)
+* [local](callbacks/local.md)
+* [player](callbacks/player.md)
+* [entity](callbacks/entity.md)
+
+## Examples
+
+* [Snap lines](examples/snap-lines.md)
+* [Extending builtin types](examples/extending-builtin-types.md)
