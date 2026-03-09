@@ -32,3 +32,11 @@ input.mouse_button(button: number, down: boolean)
 ```
 
 Changes state of the mouse button. 0 - `left`, 1 - `right`, 2 - `middle`.
+
+
+
+```lua
+input.keyboard_button(button: number, down: boolean)
+```
+
+Changes state of the keyboard button. Accepts virtual key codes from https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes.
