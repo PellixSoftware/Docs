@@ -68,11 +68,21 @@ Accepts array of 2-dimensional vectors or a repeated x,y sequence as numbers
 
 {% code overflow="wrap" %}
 ```lua
-draw.text(x: number, y: number, text: string, color: number [, align_x: number = 0.0, align_y: number = 0.0]): (number, number) | nil
+draw.text(x: number, y: number, text: string, color: number [, align_x: number = 0.0, align_y: number = 0.0])
 ```
 {% endcode %}
 
 Draws a text starting at point (x, y) adjusted with (x, y) -= (size\_x, size\_y) \* (align\_x, align\_y).
+
+
+
+{% code overflow="wrap" %}
+```lua
+draw.text_outline(x: number, y: number, text: string, color: number [, outline_color: number = 0x000000ff, align_x: number = 0.0, align_y: number = 0.0])
+```
+{% endcode %}
+
+Draws a text with outline starting at point (x, y) adjusted with (x, y) -= (size\_x, size\_y) \* (align\_x, align\_y).
 
 
 
