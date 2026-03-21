@@ -9,7 +9,7 @@ icon: paintbrush
 
 **Notes:**
 
-Colors are specified in the BGRA format.
+Colors are specified in the RGBA format (0xAABBGGRR).
 
 
 
@@ -117,3 +117,32 @@ draw.world_to_screen((x: number, y: number, z: number) | pos: vector<3>): (numbe
 {% endcode %}
 
 Converts world space coordinates to the screen space coordinates, if object is too far away returns nil.
+
+
+
+```lua
+draw.load_texture_from_memory(data: string): texture | nil
+```
+
+Loads texture from memory directory (.png or .jpg)
+
+
+
+{% code overflow="wrap" %}
+```lua
+draw.load_raw_texture_from_memory(data: string, width: number, height: number): texture | nil
+```
+{% endcode %}
+
+Loads raw texture from 32-bit RGBA image in `data` (0xAABBGGRR)
+
+
+
+{% code overflow="wrap" %}
+```lua
+draw.texture(texture: texture, x0: number, y0: number, x1: number, y1: number [ , uv0x: number = 0, uv0y: number = 0, uv1x: number = 1, uv1y: number = 1, color: number = rgba(255, 255, 255, 255)])
+```
+{% endcode %}
+
+Draws texture at specified coordinates.
+
