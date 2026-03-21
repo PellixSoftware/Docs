@@ -121,7 +121,7 @@ Converts world space coordinates to the screen space coordinates, if object is t
 
 
 ```lua
-draw.load_texture_from_memory(data: string): texture | nil
+draw.load_texture_from_memory(data: string): texture, width: number, height: number | nil
 ```
 
 Loads texture from memory directory (.png or .jpg)
