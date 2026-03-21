@@ -11,7 +11,7 @@ icon: paintbrush
 
 Colors are specified in the RGBA format (0xAABBGGRR).
 
-All functions can be called only from the \`on\_draw\` callback.
+All functions can be called only from the [draw](../callbacks/draw.md) callback.
 
 
 
