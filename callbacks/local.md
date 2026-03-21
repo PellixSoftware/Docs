@@ -4,7 +4,7 @@ icon: location-dot
 
 # local
 
-Executes every time when basic local player data was retrieved.
+Executes every time when basic local player data was retrieved, player references in-game `CCSPlayerController`.
 
 ```lua
 local(player: entity)
@@ -19,12 +19,13 @@ local(player: entity)
 **Example:**
 
 ```lua
-local health_offset = schema.get("C_BaseEntity", "m_iHealth")
+local ping_offset = schema.get("CCSPlayerController", "m_iPing")
 
 local function on_local(player)
-    local health = player:get_int(health_offset)
-    print(health)
+    local ping = player:get_int(ping_offset)
+    print(ping)
 end
 
 set_callback("local", on_local)
 ```
+
