@@ -31,6 +31,7 @@
 * [trace](tables/trace.md)
 * [input](tables/input.md)
 * [panorama](tables/panorama.md)
+* [sound](tables/sound.md)
 
 ## Callbacks
 
