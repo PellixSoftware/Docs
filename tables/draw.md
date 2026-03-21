@@ -11,6 +11,8 @@ icon: paintbrush
 
 Colors are specified in the RGBA format (0xAABBGGRR).
 
+All functions can be called only from the \`on\_draw\` callback.
+
 
 
 **Functions:**
@@ -135,6 +137,16 @@ draw.load_raw_texture_from_memory(data: string, width: number, height: number): 
 {% endcode %}
 
 Loads raw texture from 32-bit RGBA image in `data` (0xAABBGGRR)
+
+
+
+{% code overflow="wrap" %}
+```lua
+draw.load_texture_from_file(filename: string): texture, width, height | nil
+```
+{% endcode %}
+
+Loads texture from `C:\pWEBSITE_USERNAME\Scripts\Textures\*` if `Allow Unsafe` is enabled, an absolute path can be passed.
 
 
 
