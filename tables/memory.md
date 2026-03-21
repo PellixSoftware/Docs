@@ -40,15 +40,3 @@ Retrieves basic module information from the target process.
 
 
 
-:warning: **UNSAFE MODE ONLY** :warning:
-
-```lua
-memory.write(base: uintptr_t, buffer: string.buffer | cdata)
-```
-
-Write a buffer to the target process virtual address space. `cdata` supports only up to 8 bytes.
-
-<mark style="color:yellow;">Please note that write operation itself is safe but consequences of modifying specific values in the process memory might be catastrophic and lead to the anti-cheat detection. Use with care.</mark>
-
-<mark style="color:yellow;">This is disabled by default.</mark>
-
