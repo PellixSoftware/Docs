@@ -15,6 +15,26 @@ Can be called only from the draw callback.
 
 
 
+{% code overflow="wrap" %}
+```lua
+ui.is_menu_opened(): boolean
+```
+{% endcode %}
+
+Check whether menu is opened.
+
+
+
+{% code overflow="wrap" %}
+```lua
+ui.get_menu_bounds(): min_x: number, min_y: number, max_x: number, max_y: number
+```
+{% endcode %}
+
+Retrieves menu bounding box.
+
+
+
 #### **Getters/setters:**
 
 {% code overflow="wrap" %}
