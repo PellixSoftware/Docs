@@ -15,6 +15,30 @@ Can be called only from the draw callback.
 
 
 
+#### **Getters/setters:**
+
+{% code overflow="wrap" %}
+```lua
+ui.set(ref: number, value: boolean | number): boolean | number | nil
+```
+{% endcode %}
+
+Sets value of the custom UI element. Returns old value.
+
+
+
+{% code overflow="wrap" %}
+```lua
+ui.get(ref: number): boolean | number | nil
+```
+{% endcode %}
+
+Retrieves value of the custom UI element.
+
+
+
+#### **Custom elements:**
+
 ```lua
 ui.new_text(text: string [, color: number, hidden: boolean]): number
 ```
