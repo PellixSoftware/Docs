@@ -22,6 +22,7 @@
 
 ## Tables
 
+* [ui](tables/ui.md)
 * [globals](tables/globals.md)
 * [memory](tables/memory.md)
 * [schema](tables/schema.md)
