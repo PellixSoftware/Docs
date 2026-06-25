@@ -107,3 +107,11 @@ Creates a new UI integer slider element. Set display\_precision to 0 to match be
 
 
 
+{% code overflow="wrap" %}
+```lua
+ui.new_combobox(text: string, default_value: number, values: list<string> [, callback: function(v: number), hidden: boolean])
+```
+{% endcode %}
+
+Creates a new UI combobox element.
+
