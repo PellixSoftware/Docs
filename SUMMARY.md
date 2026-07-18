@@ -34,6 +34,7 @@
 * [panorama](tables/panorama.md)
 * [sound](tables/sound.md)
 * [json](tables/json.md)
+* [http](tables/http.md)
 
 ## Callbacks
 

@@ -12,3 +12,9 @@ For the official Lua API reference you can visit
 
 {% embed url="https://www.lua.org/manual/5.1/" %}
 
+
+
+Also in restricted mode (without `Allow Unsafe`) only `base`, `table`, `string`, `math` ,`bit`  and `string.buffer` (via `require`) libraries are available.
+
+With `Allow Unsafe` , `io`, `debug` and `os` are available.
+
