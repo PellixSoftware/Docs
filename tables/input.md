@@ -40,3 +40,11 @@ input.keyboard_button(button: number, down: boolean)
 ```
 
 Changes state of the keyboard button. Accepts virtual key codes from https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes.
+
+
+
+```lua
+input.is_keyboard_key_pressed(button: number [, from_cheat_pc: boolean = false]): boolean
+```
+
+Retrieves state of the keyboard key.

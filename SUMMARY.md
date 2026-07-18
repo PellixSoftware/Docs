@@ -33,6 +33,7 @@
 * [input](tables/input.md)
 * [panorama](tables/panorama.md)
 * [sound](tables/sound.md)
+* [json](tables/json.md)
 
 ## Callbacks
 
