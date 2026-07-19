@@ -48,3 +48,18 @@ input.is_keyboard_key_pressed(button: number [, from_cheat_pc: boolean = false])
 ```
 
 Retrieves state of the keyboard key.
+
+
+
+
+
+{% code overflow="wrap" %}
+```luau
+input.restore_wasd_state()
+```
+{% endcode %}
+
+Restores WASD keyboard state that was previously modified by `input.keyboard_button`.
+
+Works only with `kernelmode` input method.
+
