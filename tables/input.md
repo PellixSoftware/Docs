@@ -44,7 +44,7 @@ Changes state of the keyboard button. Accepts virtual key codes from https://lea
 
 
 ```lua
-input.is_keyboard_key_pressed(button: number [, from_cheat_pc: boolean = false]): boolean
+input.is_keyboard_key_pressed(button: number [, from_second: boolean = false]): boolean
 ```
 
 Retrieves state of the keyboard key.

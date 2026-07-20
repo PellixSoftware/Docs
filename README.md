@@ -1,6 +1,6 @@
 # Overview
 
-This documentation describes Lua API for the https://pellix.xyz/
+This documentation describes Lua API.
 
 If you're not familiar with the Lua language please consider reading something like
 

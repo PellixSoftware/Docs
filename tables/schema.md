@@ -33,5 +33,5 @@ Returns schema class size in bytes.
 schema.get_interface(library_name: string, interface_name: string): number
 ```
 
-Returns interface address. See https://github.com/a2x/cs2-dumper/blob/main/output/interfaces.json for available interfaces.
+Returns interface address.
 
