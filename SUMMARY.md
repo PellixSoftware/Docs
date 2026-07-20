@@ -27,6 +27,7 @@
 * [memory](tables/memory.md)
 * [schema](tables/schema.md)
 * [draw](tables/draw.md)
+* [draw3d](tables/draw3d.md)
 * [config](tables/config.md)
 * [entitylist](tables/entitylist.md)
 * [trace](tables/trace.md)
@@ -39,6 +40,7 @@
 ## Callbacks
 
 * [draw](callbacks/draw.md)
+* [draw3d](callbacks/draw3d.md)
 * [local](callbacks/local.md)
 * [player](callbacks/player.md)
 * [entity](callbacks/entity.md)
