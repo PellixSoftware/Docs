@@ -35,7 +35,7 @@ http.request(url: string [, options: http_options, callback: (response: http_res
 ```
 {% endcode %}
 
-Performs an HTTP(s) request on the given url with options. If callback is specified this operation is asynchronous.
+Performs an HTTP(s) request on the given url with options. If callback is specified this operation is asynchronous and it immediately returns with `nil`.
 
 If no options are specified makes a simple GET request.
 
