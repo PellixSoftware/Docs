@@ -5,6 +5,10 @@ icon: microchip
 
 # memory
 
+**NOTE: Please do not use memory functions from** [**draw**](../callbacks/draw.md) **and** [**draw3d**](../callbacks/draw3d.md) **callbacks. This will work but it's highly not recommended as it may slow down the overlay thread when used extensively.**
+
+
+
 **Functions:**
 
 ```lua
