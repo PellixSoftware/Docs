@@ -10,7 +10,7 @@ Executes every time when basic entity data was retrieved.
 
 ```lua
 pre_entities()
-entity(entity: entity, name_hash: hash_t)
+entity(entity: entity, name_hash: hash_t, class_name_hash: hash_t)
 post_entities()
 ```
 
@@ -32,7 +32,7 @@ local function on_pre_entities()
     c4_health = {}
 end
 
-local function on_entity(entity, name_hash)
+local function on_entity(entity, name_hash, class_name_hash)
     if name_hash ~= weapon_c4_hash
         return    
     end
