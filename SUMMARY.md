@@ -44,6 +44,7 @@
 * [local](callbacks/local.md)
 * [player](callbacks/player.md)
 * [entity](callbacks/entity.md)
+* [unload](callbacks/unload.md)
 
 ## Examples
 
