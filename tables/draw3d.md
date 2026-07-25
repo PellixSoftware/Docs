@@ -5,6 +5,14 @@ icon: cube
 
 # draw3d
 
+**Notes:**
+
+Colors are specified in the RGBA format (0xRRGGBBAA).
+
+Please use [make\_color.md](../functions/make_color.md "mention") to pass colors.
+
+
+
 {% code overflow="wrap" %}
 ```luau
 draw3d.create_batcher(): batcher3d
