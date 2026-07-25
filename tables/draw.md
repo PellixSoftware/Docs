@@ -9,7 +9,9 @@ icon: paintbrush
 
 **Notes:**
 
-Colors are specified in the RGBA format (0xAABBGGRR).
+Colors are specified in the RGBA format (0xRRGGBBAA).
+
+Please use [make\_color.md](../functions/make_color.md "mention") to pass colors.
 
 All functions can be called only from the [draw](../callbacks/draw.md) callback.
 

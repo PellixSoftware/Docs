@@ -5,6 +5,14 @@ icon: display
 
 # ui
 
+**Notes:**
+
+Colors are specified in the RGBA format (0xRRGGBBAA).
+
+Please use [make\_color.md](../functions/make_color.md "mention") to pass colors.
+
+
+
 ```lua
 ui.get_mouse_pos(): x: number, y: number | nil
 ```
