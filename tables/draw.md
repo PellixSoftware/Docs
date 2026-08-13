@@ -21,7 +21,7 @@ All functions can be called only from the [draw](../callbacks/draw.md) callback.
 
 {% code overflow="wrap" %}
 ```lua
-draw.line((x0: number, y0: number) | (pos0: vector<2>), (x1: number, y1: number) | (pos1: vector<2>), color: number[, thickness: number])
+draw.line(x0: number, y0: number, x1: number, y1: number, color: number[, thickness: number])
 ```
 {% endcode %}
 
@@ -31,7 +31,7 @@ Draws a line.
 
 {% code overflow="wrap" %}
 ```lua
-draw.rect((x0: number, y0: number) | (pos0: vector<2>), (x1: number, y1: number) | (pos1: vector<2>), color: number[, filled: boolean = false, rounding: number = 0.0, thickness: number = 1.0])
+draw.rect(x0: number, y0: number, x1: number, y1: number, color: number[, filled: boolean = false, rounding: number = 0.0, thickness: number = 1.0])
 ```
 {% endcode %}
 
@@ -51,7 +51,7 @@ Draws a multi-color gradient rectangle.
 
 {% code overflow="wrap" %}
 ```lua
-draw.circle((x: number, y: number) | (pos: vector<2>), radius: number, color: number[, filled: boolean = false, num_segments: number = 0, thickness = 1.0])
+draw.circle(x: number, y: number, radius: number, color: number[, filled: boolean = false, num_segments: number = 0, thickness = 1.0])
 ```
 {% endcode %}
 
