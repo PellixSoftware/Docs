@@ -17,6 +17,8 @@ Please note that `usermode` exists internally for testing but it's not used in a
 
 <mark style="color:$warning;">**All functions below are only available if user enabled**</mark><mark style="color:$warning;">**&#x20;**</mark><mark style="color:$warning;">**`Lua Allow Inputs`**</mark><mark style="color:$warning;">**&#x20;**</mark><mark style="color:$warning;">**in the global config!**</mark>
 
+Note: Because callbacks may be executed on the same tick it's highly recommended to check if tick was changed before submitting a new input.
+
 
 
 ```lua
