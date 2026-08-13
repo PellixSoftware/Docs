@@ -69,6 +69,8 @@ Retrieves value of the custom UI element.
 
 Each function here returns reference index to the element which can be used in functions like `ui.set`&#x20;
 
+Note: It's almost always better to use a callback for the element change tracking.
+
 
 
 ```lua
