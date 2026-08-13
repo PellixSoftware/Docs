@@ -18,3 +18,8 @@ Also in restricted mode (without `Allow Unsafe`) only `base`, `table`, `string`,
 
 With `Allow Unsafe` , `io`, `debug` and `os` are available.
 
+
+
+All parameters enclosed in square brackets in function arguments are optional and can be omitted.\
+If argument is a function an it's not specified that it can be `nil` it can't be replaced with `nil`.
+
