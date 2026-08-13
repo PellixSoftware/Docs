@@ -75,8 +75,6 @@ Amount of connections for this area. To be used with `navarea.get_connection`.
 
 
 
-
-
 {% code overflow="wrap" %}
 ```lua
 navarea.is_ladder: false
@@ -84,6 +82,16 @@ navarea.is_ladder: false
 {% endcode %}
 
 Always false, exists to differentiate between [navarea](navarea.md) and [navladder](navladder.md).
+
+
+
+{% code overflow="wrap" %}
+```luau
+navarea.is_crouch: boolean
+```
+{% endcode %}
+
+If area requires crouch for traversal.
 
 
 
