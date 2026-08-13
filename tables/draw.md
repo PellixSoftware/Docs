@@ -40,6 +40,16 @@ Draws a rectangle, thickness has no effect when filled == true.
 
 
 {% code overflow="wrap" %}
+```luau
+draw.rect_multicolor(x0: number, y0: number, x1: number, y1: number, col_upr_left: number, col_upr_right: number, col_bot_right: number, col_bot_left: number)
+```
+{% endcode %}
+
+Draws a multi-color gradient rectangle.
+
+
+
+{% code overflow="wrap" %}
 ```lua
 draw.circle((x: number, y: number) | (pos: vector<2>), radius: number, color: number[, filled: boolean = false, num_segments: number = 0, thickness = 1.0])
 ```
