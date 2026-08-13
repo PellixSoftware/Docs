@@ -51,8 +51,6 @@ Retrieves state of the keyboard key.
 
 
 
-
-
 {% code overflow="wrap" %}
 ```luau
 input.restore_wasd_state()
@@ -63,3 +61,12 @@ Restores WASD keyboard state that was previously modified by `input.keyboard_but
 
 Works only with `kernelmode` input method.
 
+
+
+{% code overflow="wrap" %}
+```luau
+input.angle_to_mouse_move(x: number, y: number): x: number, y: number | nil
+```
+{% endcode %}
+
+Converts angle delta to the equivalent mouse movement delta.
