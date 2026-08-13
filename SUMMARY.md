@@ -13,6 +13,9 @@
   * [vector<3>](types/vector/vector-less-than-3-greater-than.md)
   * [vector<4>](types/vector/vector-less-than-4-greater-than.md)
 * [panel](types/panel.md)
+* [navmesh](types/navmesh.md)
+* [navarea](types/navarea.md)
+* [🪜 navladder](types/navladder.md)
 
 ## Functions
 
@@ -37,6 +40,7 @@
 * [sound](tables/sound.md)
 * [json](tables/json.md)
 * [http](tables/http.md)
+* [navmesh](tables/navmesh.md)
 
 ## Callbacks
 
