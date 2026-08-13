@@ -21,6 +21,16 @@ Returns current number of ticks in the game.
 
 
 
+{% code overflow="wrap" %}
+```luau
+globals.frame_count(): number
+```
+{% endcode %}
+
+Returns current frame number in the game.
+
+
+
 :warning: `curtime()` and `tick_count()` are not available in the draw callback.
 
 
