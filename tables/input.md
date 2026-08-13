@@ -65,8 +65,8 @@ Works only with `kernelmode` input method.
 
 {% code overflow="wrap" %}
 ```luau
-input.angle_to_mouse_move(x: number, y: number): x: number, y: number | nil
+input.angle_to_mouse_move(pitch: number, yaw: number): x: number, y: number | nil
 ```
 {% endcode %}
 
-Converts angle delta to the equivalent mouse movement delta.
+Converts angle delta to the equivalent mouse movement delta. Delta is \`view\_angles - target\_angles\`.
