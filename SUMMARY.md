@@ -7,6 +7,7 @@
 ## Types
 
 * [entity](types/entity/README.md)
+  * [C\_BasePlayerPawn](types/entity/c_baseplayerpawn.md)
   * [CBasePlayerController](types/entity/cbaseplayercontroller.md)
 * [vector](types/vector/README.md)
   * [vector<2>](types/vector/vector-less-than-2-greater-than.md)
