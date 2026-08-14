@@ -11,7 +11,7 @@ navmesh.areas: navarea_list
 ```
 {% endcode %}
 
-Navigation area list which supports index and length operations.
+Navigation area list which supports index and length operations, starts with index 1.
 
 
 
@@ -21,7 +21,7 @@ navmesh.ladders: navladder_list
 ```
 {% endcode %}
 
-Navigation area ladder list which supports index and length operations.
+Navigation area ladder list which supports index and length operations, starts with index 1.
 
 
 
