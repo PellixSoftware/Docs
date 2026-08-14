@@ -89,9 +89,11 @@ Creates new UI button element.
 
 
 
+{% code overflow="wrap" %}
 ```lua
-ui.new_checkbox(text: string [, callback: function(v: boolean), hidden: boolean]): number
+ui.new_checkbox(text: string [, default_value: boolean = false, callback: function(v: boolean), hidden: boolean]): number
 ```
+{% endcode %}
 
 Creates a new UI checkbox element.
 
