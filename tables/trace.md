@@ -6,8 +6,19 @@ icon: eye
 
 {% code overflow="wrap" %}
 ```lua
-trace.visible((x0: number, y0: number, z0: number) | pos0: vector<3>, (x1: number, y1: number, z1: number) | pos1: vector<3>): boolean
+trace.visible(x0: number, y0: number, z0: number, x1: number, y1: number, z1: number): boolean
 ```
 {% endcode %}
 
 Check if two points are visible.
+
+
+
+{% code overflow="wrap" %}
+```luau
+trace.distance(x0: number, y0: number, z0: 0, x1: number, y1: number, z1: number): number
+```
+{% endcode %}
+
+Perform a ray tracing between two points and return fraction (distance) on hit `>= 0.f` , returns negative value if points are visible to each other.
+

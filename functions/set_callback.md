@@ -2,11 +2,17 @@
 
 Function that sets callback to be dispatched by the client threads.
 
-Only one callback can be set at once.
+Only one callback can be set per callback type.
 
 For all available callbacks see:
 
-[Broken link](/broken/pages/4U5LDDwJv7U9ujMLkRr4 "mention")
+[Callbacks](https://app.gitbook.com/s/v5ydQ1YxN5w1i7hiOluk/callbacks "mention")
+
+
+
+```luau
+set_callback(name: string, callback: function | nil)
+```
 
 
 
