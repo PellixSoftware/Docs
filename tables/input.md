@@ -59,8 +59,6 @@ input.restore_wasd_state()
 
 Restores WASD keyboard state that was previously modified by `input.keyboard_button`.
 
-Works only with `kernelmode` input method.
-
 
 
 {% code overflow="wrap" %}
