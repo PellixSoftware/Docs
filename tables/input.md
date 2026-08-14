@@ -9,15 +9,13 @@ icon: computer-mouse
 input.get_backend_name(): string
 ```
 
-Retrieves input backend name. Possible values are: `kernelmode`, `usermode`, `makcu`, `kmboxnet` or `none`.
-
-Please note that `usermode` exists internally for testing but it's not used in any of the release versions.
+Retrieves input backend name.
 
 
 
 <mark style="color:$warning;">**All functions below are only available if user enabled**</mark><mark style="color:$warning;">**&#x20;**</mark><mark style="color:$warning;">**`Lua Allow Inputs`**</mark><mark style="color:$warning;">**&#x20;**</mark><mark style="color:$warning;">**in the global config!**</mark>
 
-Note: Because callbacks may be executed on the same tick it's highly recommended to check if tick and framecount were changed before submitting a new input.
+Note: Because callbacks may be executed on the same tick it's highly recommended to check if tick and frame count were changed before submitting a new input.
 
 
 
