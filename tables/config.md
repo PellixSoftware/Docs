@@ -36,3 +36,13 @@ config.set(ref: number, value: boolean | number)
 ```
 
 Sets the configuration value by reference.
+
+
+
+{% code overflow="wrap" %}
+```luau
+config.new(name: string, value: boolean | number): number
+```
+{% endcode %}
+
+Creates new script local configuration value and returns reference to it.

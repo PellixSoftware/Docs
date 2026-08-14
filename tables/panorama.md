@@ -14,10 +14,10 @@ Find panorama hud element's base address by it's name.
 
 
 ```lua
-panorama.list_hud_elements(): array<string>
+panorama.list_hud_elements(): table<string, uintptr_t>
 ```
 
-List panorama hud element names.
+List panorama hud element names and their addresses.
 
 
 
@@ -29,3 +29,20 @@ Get address of the global popups. Contains popups which block all input behind t
 
 
 
+{% code overflow="wrap" %}
+```luau
+ panorama.get_hud_address() : uintptr_t | nil 
+```
+{% endcode %}
+
+Get address of the game hud object.
+
+
+
+{% code overflow="wrap" %}
+```luau
+panorama.get_main_menu_address() : uintptr_t | nil 
+```
+{% endcode %}
+
+Get address of the main menu object.
