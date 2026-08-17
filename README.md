@@ -14,7 +14,11 @@ For the official Lua API reference you can visit
 
 
 
-Also in restricted mode (without `Allow Unsafe`) only `base`, `table`, `string`, `math` ,`bit`  and `string.buffer` (via `require`) libraries are available.
+All tables in this documentation are always available.
+
+
+
+In restricted mode (without `Allow Unsafe`) only `base`, `table`, `string`, `math` ,`bit`  and `string.buffer` (via `require`) standard lua libraries are available.&#x20;
 
 With `Allow Unsafe` , `io`, `debug` and `os` are available.
 
