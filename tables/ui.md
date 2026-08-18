@@ -69,7 +69,11 @@ Retrieves value of the custom UI element.
 
 Each function here returns reference index to the element which can be used in functions like `ui.set`&#x20;
 
+Each element is automatically bound to the lua configuration value as if `config.new(text, value)` was called on it.
+
 Note: It's almost always better to use a callback for the element change tracking.
+
+
 
 
 
@@ -126,4 +130,14 @@ ui.new_combobox(text: string, default_value: number, values: list<string> [, cal
 {% endcode %}
 
 Creates a new UI combobox element.
+
+
+
+{% code overflow="wrap" %}
+```luau
+ui.new_colorpicker(text: string, value: number [, callback: function(v: number), hidden: boolean]): number
+```
+{% endcode %}
+
+Creates a new UI color picker element.
 
