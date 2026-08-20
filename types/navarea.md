@@ -61,7 +61,7 @@ navarea:get_connection(index: number): area_id: number, edge_id: number
 ```
 {% endcode %}
 
-Retrieves nav connection info by index.
+Retrieves nav connection info by index. Lowest index is 1.
 
 
 

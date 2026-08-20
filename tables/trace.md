@@ -20,5 +20,5 @@ trace.distance(x0: number, y0: number, z0: 0, x1: number, y1: number, z1: number
 ```
 {% endcode %}
 
-Perform a ray tracing between two points and return fraction (distance) on hit `>= 0.f` , returns negative value if points are visible to each other.
+Perform a ray tracing between two points and return distance on hit `>= 0.f` , returns negative value if points are visible to each other.
 
