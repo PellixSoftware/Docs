@@ -51,7 +51,7 @@ navarea.corners_count: number
 ```
 {% endcode %}
 
-Amount of corners for this area. To be used with `navarea.get_corner`.
+Amount of corners for this area. To be used with `navarea.get_corner`. Always 3 or 4.
 
 
 

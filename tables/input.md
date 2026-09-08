@@ -67,4 +67,4 @@ input.angle_to_mouse_move(pitch: number, yaw: number): x: number, y: number | ni
 ```
 {% endcode %}
 
-Converts angle delta to the equivalent mouse movement delta. Delta is \`view\_angles - target\_angles\`.
+Converts angle delta to the equivalent mouse movement delta. Delta is `view_angles - target_angles`.
