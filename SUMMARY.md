@@ -24,6 +24,7 @@
 * [make\_hash](functions/make_hash.md)
 * [get\_builtin\_metatable](functions/get_builtin_metatable.md)
 * [make\_color](functions/make_color.md)
+* [normalize\_yaw](functions/normalize_yaw.md)
 
 ## Tables
 
