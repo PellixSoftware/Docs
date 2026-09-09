@@ -43,6 +43,7 @@
 * [json](tables/json.md)
 * [http](tables/http.md)
 * [navmesh](tables/navmesh.md)
+* [tabinfo](tables/tabinfo.md)
 
 ## Callbacks
 
