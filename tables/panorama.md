@@ -46,3 +46,43 @@ panorama.get_main_menu_address() : uintptr_t | nil
 {% endcode %}
 
 Get address of the main menu object.
+
+
+
+{% code overflow="wrap" %}
+```luau
+panorama.get_panel_absolute_pos(address: uintptr_t): x: number, y: number
+```
+{% endcode %}
+
+Get panel absolute position.
+
+
+
+{% code overflow="wrap" %}
+```luau
+panorama.get_panel_size(address: uintptr_t): w: number, h: number
+```
+{% endcode %}
+
+Get panel size.
+
+
+
+{% code overflow="wrap" %}
+```luau
+panorama.get_panel_children_count(address: uintptr_t): number
+```
+{% endcode %}
+
+Get panel children count.
+
+
+
+{% code overflow="wrap" %}
+```luau
+panorama.get_panel_children(address: uintptr_t): array<uintptr_t>
+```
+{% endcode %}
+
+Get panel children pointers.
