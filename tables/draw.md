@@ -126,7 +126,7 @@ Returns screen size which game is using for rendering.
 
 {% code overflow="wrap" %}
 ```lua
-draw.world_to_screen((x: number, y: number, z: number) | pos: vector<3>): (number, number) | nil
+draw.world_to_screen(x: number, y: number, z: number): (number, number) | nil
 ```
 {% endcode %}
 
