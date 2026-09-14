@@ -10,7 +10,7 @@ local entity_meta = get_builtin_metatable("entity")
 local movetype_offset = schema.get("C_BaseEntity", "m_MoveType")
 
 entity_meta.get_movetype = function(self)
-    return self:get_int(movetype_offset)
+    return self:get_byte(movetype_offset)
 end
 
 set_callback("player", function(player)
