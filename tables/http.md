@@ -23,7 +23,7 @@ headers_in_body: boolean -- Should headers be appended to the response body?
 status: number -- Status code 
 body: string -- Response body
 connect_time: number -- Time spent to connect to the host
-http_version: number -- Http version number used to connect (1 - 1.0/2 - 1.1/2 - 2.0/30 - 3)
+http_version: number -- Http version number used to connect (1 - 1.0/2 - 1.1/3 - 2.0/30 - 3)
 redirect_count: number -- Amount of redirects
 ```
 
