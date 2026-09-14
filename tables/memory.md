@@ -42,5 +42,7 @@ print("client.dll at: ", base, ", size: ", size)
 
 Retrieves basic module information from the target process.
 
+Returns 0 size and base on failure.
+
 
 
