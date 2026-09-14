@@ -11,6 +11,7 @@ icon: paper-plane
 method: string -- HTTP request method (GET/POST/etc.)
 headers: table<string, string> -- Request headers (key = value)
 body: string -- Request body
+timeout: number -- Milliseconds
 max_redirects: number -- Maximum amount of redirects
 headers_in_body: boolean -- Should headers be appended to the response body?
 ```
