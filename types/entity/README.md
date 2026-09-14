@@ -57,6 +57,16 @@ Retrieves a chunk of memory from the entity.
 
 
 
+{% code overflow="wrap" %}
+```luau
+entity:get_byte(offset: number): number
+```
+{% endcode %}
+
+Retrieves an unsigned byte value from the entity's memory specified by an offset.
+
+
+
 ```lua
 entity:get_ushort(offset: number): number
 ```
