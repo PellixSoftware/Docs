@@ -45,4 +45,6 @@ config.new(name: string, value: boolean | number): number
 ```
 {% endcode %}
 
-Creates new script local configuration value and returns reference to it.
+Creates new script local configuration value or finds existing one and returns reference to it.
+
+This entry persists across script reloads.

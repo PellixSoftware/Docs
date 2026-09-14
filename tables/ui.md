@@ -53,6 +53,8 @@ ui.set(ref: number, value: boolean | number): boolean | number | nil
 
 Sets value of the custom UI element. Returns old value.
 
+Doesn't fire ui callbacks.
+
 
 
 {% code overflow="wrap" %}
