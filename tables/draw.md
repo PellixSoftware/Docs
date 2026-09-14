@@ -130,7 +130,7 @@ draw.world_to_screen(x: number, y: number, z: number): (number, number) | nil
 ```
 {% endcode %}
 
-Converts world space coordinates to the screen space coordinates, if object is too far away returns nil.
+Converts world space coordinates to the screen space coordinates, if object behind the camera returns nil.
 
 
 

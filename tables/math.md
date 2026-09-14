@@ -21,7 +21,7 @@ math.angle_to(x0: number, y0: number, z0: number, x1: number, y1: number z1: num
 ```
 {% endcode %}
 
-Calculate angle between two 3D points.
+Calculate angle between two 3D points. Clamps pitch to the +-89 range.
 
 
 
