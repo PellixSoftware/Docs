@@ -29,3 +29,12 @@ Parses JSON string from buffer. This function returns a read-only table-like use
 
 This function is faster than `json.parse` because it doesn't convert JSON to lua table but returns an immutable object.
 
+
+
+{% code overflow="wrap" %}
+```luau
+json.get_type_name(value: userdata): 'array'|'object'|'string'|'number'|'boolean'|nil
+```
+{% endcode %}
+
+Returns type name of the underlying json userdata.

@@ -17,6 +17,3 @@ get_builtin_metatable(name: string): table | nil
 **Available meta tables:**
 
 * entity
-* vector<2>
-* vector<3>
-* vector<4>

@@ -17,6 +17,8 @@ Returns schema class field offset in bytes. Library name specified in the follow
 
 If library name is not specified, `client.dll` is used.
 
+Throws an error for unknown field.
+
 
 
 {% code overflow="wrap" %}
@@ -27,10 +29,12 @@ schema.get_class_size([library_name: string = "client.dll", ] class_name: string
 
 Returns schema class size in bytes.
 
+Throws an error for unknown class.
+
 
 
 ```lua
-schema.get_interface(library_name: string, interface_name: string): number
+schema.get_interface(library_name: string, interface_name: string): number | nil
 ```
 
 Returns interface address.

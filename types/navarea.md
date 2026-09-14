@@ -77,7 +77,7 @@ Amount of connections for this area. To be used with `navarea.get_connection`.
 
 {% code overflow="wrap" %}
 ```luau
-navarea.get_closest_point_to(x: number, y: number, z: number): x: number, y: number, z: number
+navarea:get_closest_point_to(x: number, y: number, z: number): x: number, y: number, z: number
 ```
 {% endcode %}
 
