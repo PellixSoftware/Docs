@@ -14,7 +14,8 @@ entity_meta.get_movetype = function(self)
 end
 
 set_callback("player", function(player)
-    local movetype = player:get_movetype()
+    local pawn = player:get_pawn()
+    local movetype = pawn:get_movetype()
     print(movetype)
 end)
 ```
