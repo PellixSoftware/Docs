@@ -16,7 +16,7 @@ Check if two points are visible.
 
 {% code overflow="wrap" %}
 ```luau
-trace.distance(x0: number, y0: number, z0: 0, x1: number, y1: number, z1: number): number
+trace.distance(x0: number, y0: number, z0: number, x1: number, y1: number, z1: number): number
 ```
 {% endcode %}
 
