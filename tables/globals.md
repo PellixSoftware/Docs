@@ -5,6 +5,8 @@ icon: globe
 
 # globals
 
+
+
 ```lua
 globals.curtime(): number
 ```
@@ -58,4 +60,12 @@ globals.short_map_name(): string
 Returns current map name. For example: `de_mirage`
 
 
+
+{% code overflow="wrap" %}
+```luau
+globals.system_tick_count(): number
+```
+{% endcode %}
+
+Returns current system tick count (equivalent of winapi GetTickCount64)
 
