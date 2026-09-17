@@ -19,6 +19,8 @@ json.stringify(data: table [, indent: 2 | 4]): string | nil
 
 Converts lua table to UTF-8 JSON string. Indent specifies amount of spaces to pad with (only 2 or 4).
 
+Replaces recursive tables with null.
+
 
 
 ```luau
