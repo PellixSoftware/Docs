@@ -6,6 +6,16 @@ icon: square-dashed
 # navarea
 
 {% code overflow="wrap" %}
+```
+navarea.index
+```
+{% endcode %}
+
+Index of the navarea.
+
+
+
+{% code overflow="wrap" %}
 ```luau
 navarea:get_mins(): x: number, y: number, z: number
 ```
