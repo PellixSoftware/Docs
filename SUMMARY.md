@@ -3,6 +3,7 @@
 * [Overview](README.md)
 * [Extensions](extensions.md)
 * [Performance guidelines](performance-guidelines.md)
+* [LLM guidelines](llm-guidelines.md)
 
 ## Types
 
