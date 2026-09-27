@@ -134,6 +134,16 @@ Converts world space coordinates to the screen space coordinates, if object behi
 
 
 
+{% code overflow="wrap" %}
+```luau
+draw.get_view_projection_matrix(): table
+```
+{% endcode %}
+
+Returns a view projection 4x4 row-major matrix with base index 1.
+
+
+
 ```lua
 draw.load_texture_from_memory(data: string): texture, width: number, height: number | nil
 ```
