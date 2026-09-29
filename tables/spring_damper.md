@@ -25,7 +25,7 @@ spring_damper.step(state: userdata, prev_pitch: number, prev_yaw: number, smooth
 ```
 {% endcode %}
 
-Performs a spring damper step, `prev_pitch` and `prev_yaw` are absolute view angles.
+Performs a spring damper step, `prev_pitch` and `prev_yaw` are desired relative angle to the target.
 
 If `max_aim_step` is <= 0 step is unlimited.
 

@@ -11,7 +11,7 @@ navarea.index
 ```
 {% endcode %}
 
-Index of the navarea.
+Index of the navarea. Equals to the index in the `navmesh.areas`.
 
 
 
@@ -51,7 +51,7 @@ navarea:get_corner(index: number): x: number, y: number, z: number
 ```
 {% endcode %}
 
-Retrieves corner point by index.
+Retrieves corner point by index. Base index is 1.
 
 
 
@@ -119,4 +119,4 @@ If area requires crouch for traversal.
 navarea.flags: number
 ```
 
-Bitfield with raw navmesh flags.
+Bitfield with raw navmesh flags. Those are internal flags used by the navmesh format.

@@ -4,6 +4,10 @@ icon: eye
 
 # trace
 
+
+
+**Bullet collision trace primitives:**
+
 {% code overflow="wrap" %}
 ```luau
 trace.visible(x0: number, y0: number, z0: number, x1: number, y1: number, z1: number): boolean

@@ -41,7 +41,7 @@ navmesh:find_path_by_points(x0: number, y0: number, z0: number, x1: number, y1: 
 ```
 {% endcode %}
 
-Finds path using Dijkstra algorithm with priority queue. If callback is specified it should return cost (usually distance between the areas) or nil if point must be skipped.
+Finds path using Dijkstra algorithm with priority queue. If callback is specified it should return cost (by default distance between area centers) or `nil` if point must be skipped.
 
 `allow_laders` allows to include ladders into the path finding. You can differentiate between `navarea` and `navladder` with `area.is_ladder`.
 

@@ -63,7 +63,7 @@ navladder.top_left_area_index: number | nil
 navladder.top_right_area_index: number | nil
 navladder.top_behind_area_index: number | nil
 navladder.bottom_area_index: number | nil
-navladder.bottm_left_area_index: number | nil
-navladder.bottm_right_area_index: number | nil
+navladder.bottom_left_area_index: number | nil
+navladder.bottom_right_area_index: number | nil
 ```
 {% endcode %}

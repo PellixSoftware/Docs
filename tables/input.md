@@ -57,7 +57,7 @@ input.restore_wasd_state()
 ```
 {% endcode %}
 
-Restores WASD keyboard state that was previously modified by `input.keyboard_button`.
+Restores state of WASD keyboard keys that were previously modified by `input.keyboard_button` to their physical state.
 
 
 
@@ -67,4 +67,4 @@ input.angle_to_mouse_move(pitch: number, yaw: number): x: number, y: number | ni
 ```
 {% endcode %}
 
-Converts angle delta to the equivalent mouse movement delta. Delta is `view_angles - target_angles`.
+Converts angle delta to the equivalent mouse movement delta. Delta is `view_angles - target_angles`. Returns `nil` when inputs are not possible (e.g. menu is opened).
