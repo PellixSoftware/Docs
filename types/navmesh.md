@@ -5,6 +5,10 @@ icon: map-location-dot
 
 # navmesh
 
+Note: Navigation mesh is freed only after `navmesh` object and every `navarea`/`navarea_list`, `navladder`/`navladder_list` objects were garbage collected.&#x20;
+
+
+
 {% code overflow="wrap" %}
 ```luau
 navmesh.areas: navarea_list
