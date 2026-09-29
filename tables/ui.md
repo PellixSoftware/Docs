@@ -85,6 +85,8 @@ Each element is automatically bound to the lua configuration value and gets rese
 
 Elements can't be created recursively inside another element's callback.
 
+Callback is fired immediately on creation.
+
 Note: It's almost always better to use a callback for the element change tracking.
 
 
