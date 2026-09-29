@@ -29,3 +29,12 @@ Performs a spring damper step, `prev_pitch` and `prev_yaw` are absolute view ang
 
 If `max_aim_step` is <= 0 step is unlimited.
 
+
+
+{% code overflow="wrap" %}
+```luau
+spring_damper.reset(state: userdata): userdata
+```
+{% endcode %}
+
+Resets an internal spring damper state. Returns the same `userdata`.&#x20;
