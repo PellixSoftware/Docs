@@ -63,7 +63,7 @@ ui.set(ref: number, value: boolean | number [, execute_callback: boolean = true]
 
 Sets value of the custom UI element. Returns old value.
 
-Set `execute_callback` if you want to prevent UI callback from being executed (callback recursion is not allowed).
+Set `execute_callback` to false if you want to prevent UI callback from being executed (callback recursion is not allowed).
 
 
 
