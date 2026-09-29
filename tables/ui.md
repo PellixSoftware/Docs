@@ -43,6 +43,16 @@ Retrieves menu bounding box.
 
 
 
+{% code overflow="wrap" %}
+```luau
+ui.is_key_down(vk: number): boolean
+```
+{% endcode %}
+
+Checks if specified key is down. Accepts virtual key codes from https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes.
+
+
+
 #### **Getters/setters:**
 
 {% code overflow="wrap" %}
@@ -52,8 +62,6 @@ ui.set(ref: number, value: boolean | number): boolean | number | nil
 {% endcode %}
 
 Sets value of the custom UI element. Returns old value.
-
-Doesn't fire ui callbacks.
 
 
 
@@ -71,7 +79,7 @@ Retrieves value of the custom UI element.
 
 Each function here returns reference index to the element which can be used in functions like `ui.set`&#x20;
 
-Each element is automatically bound to the lua configuration value as if `config.new(text, value)` was called on it.
+Each element is automatically bound to the lua configuration value and gets reserved by the UI (`config.get` with the same name will return `nil`).
 
 Note: It's almost always better to use a callback for the element change tracking.
 
