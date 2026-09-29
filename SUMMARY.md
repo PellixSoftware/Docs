@@ -41,6 +41,7 @@
 * [navmesh](tables/navmesh.md)
 * [tabinfo](tables/tabinfo.md)
 * [math](tables/math.md)
+* [spring\_damper](tables/spring_damper.md)
 
 ## Callbacks
 
