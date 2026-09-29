@@ -57,11 +57,13 @@ Checks if specified key is down. Accepts virtual key codes from https://learn.mi
 
 {% code overflow="wrap" %}
 ```lua
-ui.set(ref: number, value: boolean | number): boolean | number | nil
+ui.set(ref: number, value: boolean | number [, execute_callback: boolean = true]): boolean | number | nil
 ```
 {% endcode %}
 
 Sets value of the custom UI element. Returns old value.
+
+Set `execute_callback` if you want to prevent UI callback from being executed (callback recursion is not allowed).
 
 
 
@@ -80,6 +82,8 @@ Retrieves value of the custom UI element.
 Each function here returns reference index to the element which can be used in functions like `ui.set`&#x20;
 
 Each element is automatically bound to the lua configuration value and gets reserved by the UI (`config.get` with the same name will return `nil`).
+
+Elements can't be created recursively inside another element's callback.
 
 Note: It's almost always better to use a callback for the element change tracking.
 
@@ -129,7 +133,7 @@ ui.new_slider_float(text: string, default_value: number, min: number, max: numbe
 ```
 {% endcode %}
 
-Creates a new UI integer slider element. Set display\_precision to 0 to match behavior of the printf %g specification.
+Creates a new UI floating point slider element. Set display\_precision to 0 to match behavior of the [printf %g specification](https://cplusplus.com/reference/cstdio/printf/).
 
 
 
