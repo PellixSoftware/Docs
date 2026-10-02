@@ -14,6 +14,9 @@
 * [navmesh](types/navmesh.md)
 * [navarea](types/navarea.md)
 * [🪜 navladder](types/navladder.md)
+* [vpk\_texture](types/vpk_texture.md)
+* [vpk\_key\_values](types/vpk_key_values.md)
+* [vpk\_key\_value](types/vpk_key_value.md)
 
 ## Functions
 
@@ -42,6 +45,7 @@
 * [tabinfo](tables/tabinfo.md)
 * [math](tables/math.md)
 * [spring\_damper](tables/spring_damper.md)
+* [vpk](tables/vpk.md)
 
 ## Callbacks
 
@@ -56,3 +60,5 @@
 
 * [Snap lines](examples/snap-lines.md)
 * [Extending builtin types](examples/extending-builtin-types.md)
+* [Parsing VPK key values](examples/parsing-vpk-key-values.md)
+* [Loading texture from VPK](examples/loading-texture-from-vpk.md)
