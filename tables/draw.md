@@ -173,6 +173,16 @@ Loads texture from `C:\pWEBSITE_USERNAME\Scripts\Textures\*` if `Allow Unsafe` i
 
 
 {% code overflow="wrap" %}
+```luau
+draw.rasterize_svg(data: string [, width: number, height: number]): texture | nil
+```
+{% endcode %}
+
+Rasterize SVG file and load it, set width or height 0 to use default SVG size.
+
+
+
+{% code overflow="wrap" %}
 ```lua
 draw.texture(texture: texture, x0: number, y0: number, x1: number, y1: number [ , uv0x: number = 0, uv0y: number = 0, uv1x: number = 1, uv1y: number = 1, color: number = rgba(255, 255, 255, 255)])
 ```

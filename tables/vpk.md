@@ -39,6 +39,16 @@ Parses compiled VPK texture format (.vtex\_c).
 
 {% code overflow="wrap" %}
 ```luau
+vpk.parse_svg(data: string): string | nil
+```
+{% endcode %}
+
+Parses compiled VPK SVG format (.vsvg\_c).
+
+
+
+{% code overflow="wrap" %}
+```luau
 vpk.read_file(path: string): string | nil
 ```
 {% endcode %}
