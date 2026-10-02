@@ -57,7 +57,7 @@ Checks if specified key is down. Accepts virtual key codes from https://learn.mi
 
 {% code overflow="wrap" %}
 ```lua
-ui.set(ref: number, value: boolean | number [, execute_callback: boolean = true]): boolean | number | nil
+ui.set(ref: number, value: boolean | number | string [, execute_callback: boolean = true]): boolean | number | nil
 ```
 {% endcode %}
 
@@ -69,7 +69,7 @@ Set `execute_callback` to false if you want to prevent UI callback from being ex
 
 {% code overflow="wrap" %}
 ```lua
-ui.get(ref: number): boolean | number | nil
+ui.get(ref: number): boolean | number | string | nil
 ```
 {% endcode %}
 
@@ -157,3 +157,12 @@ ui.new_colorpicker(text: string, value: number [, callback: function(v: number),
 
 Creates a new UI color picker element.
 
+
+
+{% code overflow="wrap" %}
+```luau
+ui.new_input(name: string, value: string [, hint: string, callback: function(v: number), hidden: boolean])
+```
+{% endcode %}
+
+Creates a new text input element.
