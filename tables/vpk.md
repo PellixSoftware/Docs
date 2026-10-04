@@ -57,3 +57,21 @@ Reads raw file from main VPK by path (including postfix like \_c).
 
 
 
+{% code overflow="wrap" %}
+```luau
+vpk_file_info
+
+is_dir: boolean -- If current file is a directory
+size: number | nil -- File size, present only for non-directory files
+```
+{% endcode %}
+
+
+
+{% code overflow="wrap" %}
+```luau
+vpk.list_directory(path: string): table<string, vpk_file_info>
+```
+{% endcode %}
+
+Lists all files and directories in VPK directory (non-recursive).
