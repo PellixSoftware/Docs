@@ -48,6 +48,7 @@
 * [spring\_damper](tables/spring_damper.md)
 * [vpk](tables/vpk.md)
 * [d3d11](tables/d3d11.md)
+* [aimbot](tables/aimbot.md)
 
 ## Callbacks
 
