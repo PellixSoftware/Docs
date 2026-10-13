@@ -190,3 +190,12 @@ draw.texture(texture: texture, x0: number, y0: number, x1: number, y1: number [ 
 
 Draws texture at specified coordinates.
 
+
+
+{% code overflow="wrap" %}
+```luau
+draw.texture_quad(texture: texture, x0: number, y0: number, x1: number, y1: number, x2: number, y2: number, x3: number, y3: number, [ , uv0x: number = 0, uv0y: number = 0, uv1x: number = 1, uv1y: number = 0, uv2x: number = 1, uv2y: number = 1, uv3x: number = 0, uv3y: number = 1, color: number = rgba(255, 255, 255, 255)])
+```
+{% endcode %}
+
+Draws texture quad at specified coordinates.
