@@ -4,11 +4,8 @@ icon: crosshairs
 
 # aimbot
 
-{% code overflow="wrap" %}
-```luau
-aimbot.get_locked_target(): number | nil
-```
-{% endcode %}
+<pre class="language-luau" data-overflow="wrap"><code class="lang-luau"><strong>aimbot.get_locked_target(): number | nil
+</strong></code></pre>
 
 Get current target player controller index locked by the aimbot, `nil` if there is no target.
 
