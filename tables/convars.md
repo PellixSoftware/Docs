@@ -7,7 +7,7 @@ icon: chart-simple-horizontal
 
 {% code overflow="wrap" %}
 ```luau
-convars.find_adress(name: string): uintptr_t
+convars.find_address(name: string): uintptr_t
 ```
 {% endcode %}
 
