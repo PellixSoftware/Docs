@@ -49,6 +49,7 @@
 * [vpk](tables/vpk.md)
 * [d3d11](tables/d3d11.md)
 * [aimbot](tables/aimbot.md)
+* [convars](tables/convars.md)
 
 ## Callbacks
 
