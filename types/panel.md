@@ -1,5 +1,5 @@
 ---
-description: Type that represents panorama panel.
+description: Type that represents panorama CUIPanel.
 icon: file-code
 ---
 
@@ -15,7 +15,17 @@ Panel base address.
 
 {% code overflow="wrap" %}
 ```luau
-panel.absolute_pos: x: number, y: number
+panel.id: string | nil
+```
+{% endcode %}
+
+Panel unique identifier string.
+
+
+
+{% code overflow="wrap" %}
+```luau
+panel:get_absolute_pos(): x: number, y: number
 ```
 {% endcode %}
 
@@ -25,7 +35,7 @@ Panel absolute position on the screen (please note that this is not accurate for
 
 {% code overflow="wrap" %}
 ```luau
-panel.size: w: number, h: number
+panel:get_size(): w: number, h: number
 ```
 {% endcode %}
 

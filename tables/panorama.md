@@ -55,4 +55,4 @@ panorama.get_panel(address: uintptr_t | integer): panel
 ```
 {% endcode %}
 
-Get panel object by address.
+Get panel object by address. The input address is not checked (so you can pass arbitary panel addresses).
