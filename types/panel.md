@@ -5,8 +5,49 @@ icon: file-code
 
 # panel
 
-```lua
-panel.get_base(): uintptr_t
+```luau
+panel.base: uintptr_t
 ```
 
-Retrieves panorama panel base address.
+Panel base address.
+
+
+
+{% code overflow="wrap" %}
+```luau
+panel.absolute_pos: x: number, y: number
+```
+{% endcode %}
+
+Panel absolute position on the screen (please note that this is not accurate for panels with custom position/transform styles).
+
+
+
+{% code overflow="wrap" %}
+```luau
+panel.size: w: number, h: number
+```
+{% endcode %}
+
+Panel on-screen size.
+
+
+
+{% code overflow="wrap" %}
+```luau
+panel.children_count: number
+```
+{% endcode %}
+
+Count of panel children.
+
+
+
+{% code overflow="wrap" %}
+```luau
+panel.children: array<panel>
+```
+{% endcode %}
+
+Children panel array.
+
