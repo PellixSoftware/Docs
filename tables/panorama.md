@@ -35,7 +35,7 @@ Get address of the global popups. Contains popups which block all input behind t
 ```
 {% endcode %}
 
-Get address of the game hud object.
+Get address of the game hud object (not a ui panel, `CCSGO_Hud`).
 
 
 
@@ -45,7 +45,7 @@ panorama.get_main_menu_address() : uintptr_t | nil
 ```
 {% endcode %}
 
-Get address of the main menu object.
+Get address of the main menu object (not a ui panel, `CCSGO_MainMenu` ).
 
 
 
