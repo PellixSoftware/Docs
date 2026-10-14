@@ -19,9 +19,11 @@ Note: Because callbacks may be executed on the same tick it's highly recommended
 
 
 
-```lua
+{% code overflow="wrap" %}
+```luau
 input.move_mouse(x: number, y: number [, absolute: boolean = false])
 ```
+{% endcode %}
 
 Moves mouse using mouse input device. Set absolute to `true` if you want to move mouse in the absolute screen coordinates.
 
