@@ -25,7 +25,7 @@ List panorama hud element names and their addresses.
 panorama.get_global_popups_address() : uintptr_t | nil 
 ```
 
-Get address of the global popups. Contains popups which block all input behind them (match accept, premier map selection).
+Get address of the global popups. Contains popups which block all input behind them (match accept, premier map selection). Not a ui panel, `CCSGO_Hud` , ui panel is at +0x8.
 
 
 
@@ -35,7 +35,7 @@ Get address of the global popups. Contains popups which block all input behind t
 ```
 {% endcode %}
 
-Get address of the game hud object (not a ui panel, `CCSGO_Hud`).
+Get address of the game hud object (not a ui panel, `CCSGO_Hud` , ui panel is at +0x8).
 
 
 
@@ -45,7 +45,7 @@ panorama.get_main_menu_address() : uintptr_t | nil
 ```
 {% endcode %}
 
-Get address of the main menu object (not a ui panel, `CCSGO_MainMenu` ).
+Get address of the main menu object (not a ui panel, `CCSGO_MainMenu` , ui panel is at +0x8).
 
 
 
