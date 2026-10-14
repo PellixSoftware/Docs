@@ -9,7 +9,7 @@ icon: panorama
 panorama.find_hud_element(name: string): uintptr_t | nil
 ```
 
-Find panorama hud element's base address by it's name.
+Find panorama hud element's base address by it's name (not a ui panel address but a hud object address).
 
 
 
@@ -17,7 +17,7 @@ Find panorama hud element's base address by it's name.
 panorama.list_hud_elements(): table<string, uintptr_t>
 ```
 
-List panorama hud element names and their addresses.
+List panorama hud element names and their object addresses.
 
 
 
