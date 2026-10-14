@@ -19,7 +19,7 @@ panel.id: string | nil
 ```
 {% endcode %}
 
-Panel unique identifier string.
+Panel unique identifier string. `nil` is returned if internal panel address is 0 (not if id is empty).
 
 
 
