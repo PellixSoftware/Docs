@@ -48,3 +48,13 @@ config.new(name: string, value: boolean | number | string): number
 Creates new script local configuration value or finds existing one and returns reference to it.
 
 This entry persists across script reloads.
+
+
+
+{% code overflow="wrap" %}
+```luau
+config.get_name(): string
+```
+{% endcode %}
+
+Get current configuration name.
