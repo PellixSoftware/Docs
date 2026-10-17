@@ -5,6 +5,10 @@ icon: file-code
 
 # panel
 
+Note: `cached` parameter specifies whether specified attribute should be read directly from the memory or fetched from cache (which is faster), cache is updated about every 5 seconds.
+
+
+
 ```luau
 panel.base: uintptr_t
 ```
@@ -25,7 +29,7 @@ Panel unique identifier string. `nil` is returned if internal panel address is 0
 
 {% code overflow="wrap" %}
 ```luau
-panel:get_absolute_pos(): x: number, y: number
+panel:get_absolute_pos([ cached: boolean = false ]): x: number, y: number
 ```
 {% endcode %}
 
@@ -35,7 +39,7 @@ Panel absolute position on the screen (please note that this is not accurate for
 
 {% code overflow="wrap" %}
 ```luau
-panel:get_size(): w: number, h: number
+panel:get_size([ cached: boolean = false ]): w: number, h: number
 ```
 {% endcode %}
 
