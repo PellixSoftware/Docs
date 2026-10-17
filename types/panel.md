@@ -49,6 +49,16 @@ Panel on-screen size.
 
 {% code overflow="wrap" %}
 ```luau
+panel:find_child_by_id(cached: boolean, id: string...): panel | nil
+```
+{% endcode %}
+
+Finds panorama panel child by following the id chain provided.
+
+
+
+{% code overflow="wrap" %}
+```luau
 panel.children_count: number
 ```
 {% endcode %}
