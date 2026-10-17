@@ -5,7 +5,7 @@ icon: people-group
 
 # entitylist
 
-**NOTE: Please do not use entitylist functions from** [**draw**](../callbacks/draw.md) **and** [**draw3d**](../callbacks/draw3d.md) **callbacks. This will work but it's highly not recommended as it may slow down the overlay thread when used extensively.**
+Note: Please do not use entity list functions unless absolutely needed! Players can be fetched from [player](../callbacks/player.md) and [local](../callbacks/local.md) callbacks, entities can be fetched from [entity](../types/entity/) callback, they provide already known entities with their respective addresses, iterating entity list manually is _**never**_ a good idea.
 
 
 
