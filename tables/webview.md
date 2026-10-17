@@ -11,7 +11,7 @@ icon: globe-pointer
 ```
 {% endcode %}
 
-Create a new webview instance. Returns `nil` if webview runtime wasn't found.
+Create a new [webview](../types/webview_instance.md) instance. Returns `nil` if webview runtime wasn't found.
 
 If `title` wasn't specified, uses web page title.
 
