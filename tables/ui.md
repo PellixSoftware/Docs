@@ -1,6 +1,6 @@
 ---
 description: Allows to create custom UI elements and access UI state.
-icon: display
+icon: arrow-pointer
 ---
 
 # ui
