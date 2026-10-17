@@ -53,6 +53,16 @@ Checks if specified key is down. Accepts virtual key codes from https://learn.mi
 
 
 
+{% code overflow="wrap" %}
+```luau
+ui.is_cursor_visible(): boolean
+```
+{% endcode %}
+
+Check if mouse cursor is currently visible.
+
+
+
 #### **Getters/setters:**
 
 {% code overflow="wrap" %}
