@@ -17,6 +17,7 @@
 * [vpk\_texture](types/vpk_texture.md)
 * [vpk\_key\_values](types/vpk_key_values.md)
 * [vpk\_key\_value](types/vpk_key_value.md)
+* [webview\_instance](types/webview_instance.md)
 
 ## Functions
 
@@ -50,6 +51,7 @@
 * [d3d11](tables/d3d11.md)
 * [aimbot](tables/aimbot.md)
 * [convars](tables/convars.md)
+* [webview](tables/webview.md)
 
 ## Callbacks
 
