@@ -101,11 +101,17 @@ Get window bounds which contains a webview.
 
 {% code overflow="wrap" %}
 ```luau
-webview_instance:eval_js(content: string)
+webview_instance:eval_js(content: string [, callback: function(err: string | nil, res: string | nil) ]): boolean
 ```
 {% endcode %}
 
-Evaluate a javascript code in the webview. Works only when executed on `ready` state.
+Evaluate a javascript code in the webview.
+
+Returns `true` when was submitted successfully.
+
+`err` is non-nil only on internal error.
+
+Works only when executed on `ready` state.
 
 
 
