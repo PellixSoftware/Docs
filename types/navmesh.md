@@ -7,6 +7,8 @@ icon: map-location-dot
 
 Note: Navigation mesh is freed only after `navmesh` object and every `navarea`/`navarea_list`, `navladder`/`navladder_list` objects were garbage collected.&#x20;
 
+Note: Ladders are currently ignore for path finding.
+
 
 
 {% code overflow="wrap" %}
