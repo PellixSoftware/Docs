@@ -5,7 +5,7 @@ icon: volume
 
 # sound
 
-```lua
+```luau
 sound.play_wav(filename: string [, volume: number = , ignore_cache: boolean = false])
 ```
 

@@ -7,7 +7,7 @@ icon: user
 
 **Functions:**
 
-```lua
+```luau
 entity:get_base(): uintptr_t
 ```
 
@@ -15,7 +15,7 @@ Returns entity base address.
 
 
 
-```lua
+```luau
 entity:get_index(): number
 ```
 
@@ -23,7 +23,7 @@ Returns entity index.
 
 
 
-```lua
+```luau
 entity:get_class_name_hash(): hash_t
 ```
 
@@ -31,7 +31,7 @@ Returns entity class name hash, may return 0 for entity which wasn't cached.
 
 
 
-```lua
+```luau
 entity:is_alive(): boolean
 ```
 
@@ -39,7 +39,7 @@ Checks if entity is alive.
 
 
 
-```lua
+```luau
 entity:get_abs_origin(): number, number, number
 ```
 
@@ -49,7 +49,7 @@ Retrieves entity absolute origin (`CGameSceneNode::m_vecAbsOrigin`)
 
 ### **Read primitives:**
 
-```lua
+```luau
 entity:read(offset: number, size: number): string.buffer
 ```
 
@@ -67,7 +67,7 @@ Retrieves an unsigned byte value from the entity's memory specified by an offset
 
 
 
-```lua
+```luau
 entity:get_ushort(offset: number): number
 ```
 
@@ -75,7 +75,7 @@ Retrieves an unsigned 16-bit integer value from the entity's memory specified by
 
 
 
-```lua
+```luau
 entity:get_int(offset: number): number
 ```
 
@@ -83,7 +83,7 @@ Retrieves a signed 32-bit integer value from the entity's memory specified by an
 
 
 
-```lua
+```luau
 entity:get_ptr(offset: number): uintptr_t
 ```
 
@@ -91,7 +91,7 @@ Retrieves a pointer value from the entity's memory specified by an offset.
 
 
 
-```lua
+```luau
 entity:get_float(offset: number): number
 ```
 
@@ -99,7 +99,7 @@ Retrieves a floating point value from the entity's memory specified by an offset
 
 
 
-```lua
+```luau
 entity:get_bool(offset: number): boolean
 ```
 
@@ -107,7 +107,7 @@ Retrieves a boolean value from the entity's memory specified by an offset.
 
 
 
-```lua
+```luau
 entity:get_vector2(offset: number): number, number
 ```
 
@@ -115,7 +115,7 @@ Retrieves a two-dimensional vector value from the entity's memory specified by a
 
 
 
-```lua
+```luau
 entity:get_vector3(offset: number): number, number, number
 ```
 
@@ -123,7 +123,7 @@ Retrieves a three-dimensional vector value from the entity's memory specified by
 
 
 
-```lua
+```luau
 entity:get_vector4(offset: number): number, number, number, number
 ```
 

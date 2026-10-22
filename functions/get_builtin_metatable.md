@@ -8,7 +8,7 @@ This can be useful if you want to extend basic types functionality, see  [extend
 
 
 
-```lua
+```luau
 get_builtin_metatable(name: string): table | nil
 ```
 

@@ -6,7 +6,7 @@ icon: location-dot
 
 Executes every time when basic local player data was retrieved, player references in-game `CCSPlayerController`.
 
-```lua
+```luau
 local(player: entity)
 ```
 

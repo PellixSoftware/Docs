@@ -11,7 +11,7 @@ Note: Please do not use entity list functions unless absolutely needed! Players 
 
 **Functions:**
 
-```lua
+```luau
 entitylist.get_base(index: number [, cached: boolean = false]): uintptr_t | nil
 ```
 
@@ -19,7 +19,7 @@ Returns entity base by index.
 
 
 
-```lua
+```luau
 entitylist.get_base_from_handle(handle: number [, cached: boolean = false]): uintptr_t | nil
 ```
 

@@ -6,7 +6,7 @@ Underlying implementation uses crc64 but this may change.
 
 
 
-```lua
+```luau
 make_hash(text: string): uint64_t
 make_hash(buffer: string.buffer): uint64_t
 ```

@@ -11,7 +11,7 @@ icon: microchip
 
 **Functions:**
 
-```lua
+```luau
 memory.read(base: uintptr_t, size: size_t): string.buffer
 ```
 
@@ -19,7 +19,7 @@ Reads a piece of memory from the virtual address space of the target process, re
 
 
 
-```lua
+```luau
 memory.read_byte(base: number): number -- 1 byte
 memory.read_word(base: number): number -- 2 bytes
 memory.read_dword(base: number): number -- 4 bytes 
@@ -32,7 +32,7 @@ Reads common value types from the target's process memory.
 
 
 
-```lua
+```luau
 memory.get_module(name: string): uintptr_t, number
 
 -- Example:

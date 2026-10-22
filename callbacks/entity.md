@@ -8,7 +8,7 @@ Executes every time when basic entity data was retrieved.
 
 
 
-```lua
+```luau
 pre_entities()
 entity(entity: entity, name_hash: hash_t, class_name_hash: hash_t)
 post_entities()

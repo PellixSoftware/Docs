@@ -8,7 +8,7 @@ icon: sitemap
 **Functions:**
 
 {% code overflow="wrap" %}
-```lua
+```luau
 schema.get([library_name: string = "client.dll", ] class_name: string, field_name: string): number
 ```
 {% endcode %}
@@ -22,7 +22,7 @@ Throws an error for unknown field.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 schema.get_class_size([library_name: string = "client.dll", ] class_name: string): number
 ```
 {% endcode %}
@@ -33,7 +33,7 @@ Throws an error for unknown class.
 
 
 
-```lua
+```luau
 schema.get_interface(library_name: string, interface_name: string): number | nil
 ```
 

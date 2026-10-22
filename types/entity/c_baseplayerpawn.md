@@ -10,7 +10,7 @@ Returns player pawn view (camera) origin.
 
 
 
-```lua
+```luau
 pawn:get_view_angles(): x: number, y: number, z: number
 ```
 

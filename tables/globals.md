@@ -7,7 +7,7 @@ icon: globe
 
 
 
-```lua
+```luau
 globals.curtime(): number
 ```
 
@@ -15,7 +15,7 @@ Returns current game time.
 
 
 
-```lua
+```luau
 globals.tick_count(): number
 ```
 
@@ -37,7 +37,7 @@ Returns current frame number in the game.
 
 
 
-```lua
+```luau
 globals.network_game_client(): uintptr_t
 ```
 
@@ -45,7 +45,7 @@ Returns address of the network game client structure.
 
 
 
-```lua
+```luau
 globals.local_player_controller(): uintptr_t
 ```
 
@@ -53,7 +53,7 @@ Returns address to the pointer of the local player controller.
 
 
 
-```lua
+```luau
 globals.short_map_name(): string
 ```
 

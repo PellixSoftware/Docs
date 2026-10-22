@@ -8,7 +8,7 @@ Executes every time when basic player data was retrieved, player references in-g
 
 
 
-```lua
+```luau
 pre_players()
 player(player: entity)
 post_players()

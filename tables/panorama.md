@@ -5,7 +5,7 @@ icon: panorama
 
 # panorama
 
-```lua
+```luau
 panorama.find_hud_element(name: string): uintptr_t | nil
 ```
 
@@ -13,7 +13,7 @@ Find panorama hud element's base address by it's name (not a ui panel address bu
 
 
 
-```lua
+```luau
 panorama.list_hud_elements(): table<string, uintptr_t>
 ```
 
@@ -21,7 +21,7 @@ List panorama hud element names and their object addresses.
 
 
 
-```lua
+```luau
 panorama.get_global_popups_address() : uintptr_t | nil 
 ```
 

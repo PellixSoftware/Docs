@@ -5,7 +5,7 @@ icon: computer-mouse
 
 # input
 
-```lua
+```luau
 input.get_backend_name(): string
 ```
 
@@ -29,7 +29,7 @@ Moves mouse using mouse input device. Set absolute to `true` if you want to move
 
 
 
-```lua
+```luau
 input.mouse_button(button: number, down: boolean)
 ```
 
@@ -37,7 +37,7 @@ Changes state of the mouse button. 0 - `left`, 1 - `right`, 2 - `middle`.
 
 
 
-```lua
+```luau
 input.keyboard_button(button: number, down: boolean)
 ```
 
@@ -45,7 +45,7 @@ Changes state of the keyboard button. Accepts virtual key codes from https://lea
 
 
 
-```lua
+```luau
 input.is_keyboard_key_pressed(button: number [, from_second: boolean = false]): boolean
 ```
 

@@ -20,7 +20,7 @@ All functions can be called only from the [draw](../callbacks/draw.md) callback.
 **Functions:**
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.line(x0: number, y0: number, x1: number, y1: number, color: number[, thickness: number])
 ```
 {% endcode %}
@@ -30,7 +30,7 @@ Draws a line.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.rect(x0: number, y0: number, x1: number, y1: number, color: number[, filled: boolean = false, rounding: number = 0.0, thickness: number = 1.0])
 ```
 {% endcode %}
@@ -50,7 +50,7 @@ Draws a multi-color gradient rectangle.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.circle(x: number, y: number, radius: number, color: number[, filled: boolean = false, num_segments: number = 0, thickness = 1.0])
 ```
 {% endcode %}
@@ -60,7 +60,7 @@ Draws a circle, thickness has no effect when filled == true, `num_segments` sele
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.polyline(points: table< { [1] = x, [2] = y } | x, y... >, color: number [, closed: boolean = false, thickness: number = 1.0 ])
 
 draw.convex_poly_filled(points: table< { [1] = x, [2] = y } | x, y... >, color: number)
@@ -81,7 +81,7 @@ Accepts array of 2-dimensional vectors or a repeated x,y sequence as numbers
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.text(x: number, y: number, text: string, color: number [, align_x: number = 0.0, align_y: number = 0.0])
 ```
 {% endcode %}
@@ -91,7 +91,7 @@ Draws a text starting at point (x, y) adjusted with (x, y) -= (size\_x, size\_y)
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.text_outline(x: number, y: number, text: string, color: number [, outline_color: number = 0x000000ff, align_x: number = 0.0, align_y: number = 0.0])
 ```
 {% endcode %}
@@ -100,7 +100,7 @@ Draws a text with outline starting at point (x, y) adjusted with (x, y) -= (size
 
 
 
-```lua
+```luau
 draw.text_size(text: string)
 ```
 
@@ -108,7 +108,7 @@ Calculates text size in pixels.
 
 
 
-```lua
+```luau
 draw.overlay_size(): number, number
 ```
 
@@ -116,7 +116,7 @@ Returns size of the overlay window in pixels.
 
 
 
-```lua
+```luau
 draw.render_size(): number, number
 ```
 
@@ -125,7 +125,7 @@ Returns screen size which game is using for rendering.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.world_to_screen(x: number, y: number, z: number): (number, number) | nil
 ```
 {% endcode %}
@@ -144,7 +144,7 @@ Returns a view projection 4x4 row-major matrix with base index 1.
 
 
 
-```lua
+```luau
 draw.load_texture_from_memory(data: string): texture, width: number, height: number | nil
 ```
 
@@ -153,7 +153,7 @@ Loads texture from memory directory (.png or .jpg)
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.load_raw_texture_from_memory(data: string, width: number, height: number): texture | nil
 ```
 {% endcode %}
@@ -163,7 +163,7 @@ Loads raw texture from 32-bit RGBA image in `data` (0xAABBGGRR)
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.load_texture_from_file(filename: string): texture, width, height | nil
 ```
 {% endcode %}
@@ -183,7 +183,7 @@ Rasterize SVG file and load it, set width or height 0 to use default SVG size.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 draw.texture(texture: texture, x0: number, y0: number, x1: number, y1: number [ , uv0x: number = 0, uv0y: number = 0, uv1x: number = 1, uv1y: number = 1, color: number = rgba(255, 255, 255, 255)])
 ```
 {% endcode %}
