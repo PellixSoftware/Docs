@@ -13,7 +13,7 @@ Please use [make\_color.md](../functions/make_color.md "mention") to pass colors
 
 
 
-```lua
+```luau
 ui.get_mouse_pos(): x: number, y: number | nil
 ```
 
@@ -34,7 +34,7 @@ Get mouse vertical scroll wheel amount.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 ui.is_menu_opened(): boolean
 ```
 {% endcode %}
@@ -44,7 +44,7 @@ Check whether menu is opened.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 ui.get_menu_bounds(): min_x: number, min_y: number, max_x: number, max_y: number
 ```
 {% endcode %}
@@ -76,7 +76,7 @@ Check if mouse cursor is currently visible.
 #### **Getters/setters:**
 
 {% code overflow="wrap" %}
-```lua
+```luau
 ui.set(ref: number, value: boolean | number | string [, execute_callback: boolean = true]): boolean | number | nil
 ```
 {% endcode %}
@@ -88,7 +88,7 @@ Set `execute_callback` to false if you want to prevent UI callback from being ex
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 ui.get(ref: number): boolean | number | string | nil
 ```
 {% endcode %}
@@ -113,7 +113,7 @@ Note: It's almost always better to use a callback for the element change trackin
 
 
 
-```lua
+```luau
 ui.new_text(text: string [, color: number, hidden: boolean]): number
 ```
 
@@ -121,7 +121,7 @@ Creates new UI text element.
 
 
 
-```lua
+```luau
 ui.new_button(text: string [, callback: function, hidden: boolean]): number
 ```
 
@@ -130,7 +130,7 @@ Creates new UI button element.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 ui.new_checkbox(text: string [, default_value: boolean = false, callback: function(v: boolean), hidden: boolean]): number
 ```
 {% endcode %}
@@ -140,7 +140,7 @@ Creates a new UI checkbox element.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 ui.new_slider_int(text: string, default_value: number, min: number, max: number [, callback: function(v: number), hidden: boolean])
 ```
 {% endcode %}
@@ -150,7 +150,7 @@ Creates a new UI integer slider element.
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 ui.new_slider_float(text: string, default_value: number, min: number, max: number [, display_precision: number, callback: function(v: number), hidden: boolean])
 ```
 {% endcode %}
@@ -160,7 +160,7 @@ Creates a new UI floating point slider element. Set display\_precision to 0 to m
 
 
 {% code overflow="wrap" %}
-```lua
+```luau
 ui.new_combobox(text: string, default_value: number, values: list<string> [, callback: function(v: number), hidden: boolean])
 ```
 {% endcode %}
