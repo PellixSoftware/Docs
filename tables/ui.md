@@ -24,6 +24,16 @@ Can be called only from the draw callback.
 
 
 {% code overflow="wrap" %}
+```luau
+ui.get_mouse_wheel(): number
+```
+{% endcode %}
+
+Get mouse vertical scroll wheel amount.
+
+
+
+{% code overflow="wrap" %}
 ```lua
 ui.is_menu_opened(): boolean
 ```
