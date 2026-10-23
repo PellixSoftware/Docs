@@ -19,7 +19,7 @@ Do not retrieve config reference multiple times, save it in you script and reuse
 config.get_ref(id: string): number
 ```
 
-Retrieves a reference to the configuration entry
+Retrieves a reference to the configuration [entry](../config-variables.md).
 
 
 
