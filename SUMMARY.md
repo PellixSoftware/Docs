@@ -4,6 +4,7 @@
 * [Extensions](extensions.md)
 * [Performance guidelines](performance-guidelines.md)
 * [LLM guidelines](llm-guidelines.md)
+* [Config Variables](config-variables.md)
 
 ## Types
 
