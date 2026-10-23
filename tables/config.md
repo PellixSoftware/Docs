@@ -41,6 +41,18 @@ Sets the configuration value by reference.
 
 {% code overflow="wrap" %}
 ```luau
+config.set_color(ref: number, value: number)
+```
+{% endcode %}
+
+Sets the configuration value by reference.
+
+Assumes that color from [make\_color](../functions/make_color.md) or from [ui.get](ui.md) colorpicker element was passed.
+
+
+
+{% code overflow="wrap" %}
+```luau
 config.new(name: string, value: boolean | number | string): number
 ```
 {% endcode %}
