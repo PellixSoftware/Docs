@@ -30,7 +30,7 @@ local function on_draw()
     
     local x = 100
     local y = 100
-    draw.texture(x, y, x + texture.width, y + texture.height)
+    draw.texture(draw_texture, x, y, x + texture.width, y + texture.height)
 end
 
 set_callback("draw", on_draw)

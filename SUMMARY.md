@@ -53,6 +53,7 @@
 * [aimbot](tables/aimbot.md)
 * [convars](tables/convars.md)
 * [webview](tables/webview.md)
+* [base64](tables/base64.md)
 
 ## Callbacks
 

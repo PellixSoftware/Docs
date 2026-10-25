@@ -17,6 +17,16 @@ Parses binary KV3 format.
 
 {% code overflow="wrap" %}
 ```luau
+vpk.parse_text_kv3(data: string): vpk_key_values | nil
+```
+{% endcode %}
+
+Parses text KV3 format. Always skips comments, BOM and VDF like header.
+
+
+
+{% code overflow="wrap" %}
+```luau
 vpk.parse_resource(data: string, callback: function(signature: number, offset: number, size: number, index: number, data: string): boolean): boolean
 ```
 {% endcode %}
@@ -75,3 +85,25 @@ vpk.list_directory(path: string): table<string, vpk_file_info>
 {% endcode %}
 
 Lists all files and directories in VPK directory (non-recursive).
+
+
+
+{% code overflow="wrap" %}
+```luau
+vpk.decode_vertex_buffer(buffer: string, vertex_size: number, vertex_count: number): string.buffer | nil
+```
+{% endcode %}
+
+Decode compressed VPK vertex buffer.
+
+`vertex_size % 4 == 0` must be satisfied.
+
+
+
+{% code overflow="wrap" %}
+```luau
+vpk.decode_index_buffer(buffer: string, index_size: 2 | 4, index_count: number): string.buffer | nil
+```
+{% endcode %}
+
+Decode compressed VPK index buffer.
