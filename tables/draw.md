@@ -136,13 +136,13 @@ Converts world space coordinates to the screen space coordinates, if object behi
 
 {% code overflow="wrap" %}
 ```luau
-draw.get_view_projection_matrix(): table
+draw.get_view_projection_matrix([ flatten: boolean = false ]): table<number>[4][4] | table<number>[12]
 ```
 {% endcode %}
 
 Returns a view projection 4x4 row-major matrix with base index 1.
 
-
+Set `flatten` to true to return flattened 4x4 matrix.<br>
 
 ```luau
 draw.load_texture_from_memory(data: string): texture, width: number, height: number | nil
@@ -174,7 +174,7 @@ Loads texture from `C:\pWEBSITE_USERNAME\Scripts\Textures\*` if `Allow Unsafe` i
 
 {% code overflow="wrap" %}
 ```luau
-draw.rasterize_svg(data: string [, width: number, height: number]): texture | nil
+draw.rasterize_svg(data: string [, width: number, height: number]): (texture, width: number, height: number) | nil
 ```
 {% endcode %}
 
@@ -199,3 +199,35 @@ draw.texture_quad(texture: texture, x0: number, y0: number, x1: number, y1: numb
 {% endcode %}
 
 Draws texture quad at specified coordinates.
+
+
+
+{% code overflow="wrap" %}
+```luau
+draw.push_clip_rect_fullscreen()
+```
+{% endcode %}
+
+Push fullscreen clip rect.
+
+
+
+{% code overflow="wrap" %}
+```luau
+draw.push_clip_rect(min_x: number, min_y: number, max_x: number, max_y: number [, intersect_with_current: boolean = false])
+```
+{% endcode %}
+
+Push clip rect. Set `intersect_with_current` to true to intersect with current top level clip rect.
+
+
+
+{% code overflow="wrap" %}
+```luau
+draw.pop_clip_rect()
+```
+{% endcode %}
+
+Pop clip rect. Errors when too much clip rects are popped.
+
+Software automatically pops all clip rects after the [`draw`](../callbacks/draw.md) callback.

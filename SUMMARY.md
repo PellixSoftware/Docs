@@ -54,6 +54,7 @@
 * [convars](tables/convars.md)
 * [webview](tables/webview.md)
 * [base64](tables/base64.md)
+* [itemsystem](tables/itemsystem.md)
 
 ## Callbacks
 

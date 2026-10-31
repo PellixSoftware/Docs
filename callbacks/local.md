@@ -6,6 +6,8 @@ icon: location-dot
 
 Executes every time when basic local player data was retrieved, player references in-game `CCSPlayerController`.
 
+In single thread mode always fires between [pre\_players](player.md) and [post\_players](player.md), order is not guaranteed otherwise.
+
 ```luau
 local(player: entity)
 ```

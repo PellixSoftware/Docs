@@ -53,3 +53,12 @@ math.angle_up(pitch: number, yaw: number, roll: number): pitch: number, yaw: num
 
 Calculate normalized up direction relative to the angle.
 
+
+
+{% code overflow="wrap" %}
+```luau
+math.matrix4x4_invert(matrix: array<number>[4][4] | array<number>[12]): table
+```
+{% endcode %}
+
+Invert a 4x4 matrix.
