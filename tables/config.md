@@ -47,7 +47,7 @@ config.set_color(ref: number, value: number)
 
 Sets the configuration value by reference.
 
-Assumes that color from [make\_color](../functions/make_color.md) or from [ui.get](ui.md) colorpicker element was passed.
+Assumes that color from [make\_color](../functions/make_color.md) or from [ui.get](ui.md) colorpicker element is passed into \`value\`.
 
 
 
