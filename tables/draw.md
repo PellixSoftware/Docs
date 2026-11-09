@@ -168,7 +168,7 @@ draw.load_texture_from_file(filename: string): texture, width, height | nil
 ```
 {% endcode %}
 
-Loads texture from `C:\pWEBSITE_USERNAME\Scripts\Textures\*` if `Allow Unsafe` is enabled, an absolute path can be passed.
+Loads texture from `C:\pWEBSITE_USERNAME\Scripts\Textures\*` if `Allow Unsafe` is enabled, an absolute path can be passed. JPEG, PNG, BMP or TGA images can be loaded.
 
 
 
