@@ -81,7 +81,7 @@ Make webview instance render even when menu is not opened.
 
 {% code overflow="wrap" %}
 ```luau
-webview_instance:get_bounds(): left, right, top, bottom
+webview_instance:get_bounds(): left, top, right, bottom
 ```
 {% endcode %}
 
