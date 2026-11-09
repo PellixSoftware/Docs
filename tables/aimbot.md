@@ -17,7 +17,7 @@ aimbot.get_current_target(): number : nil
 ```
 {% endcode %}
 
-Get current target player controller index locked by the aimbot, `nil` if there is not target.
+Get current target player controller index targetted by the aimbot, `nil` if there is no target.
 
 
 
