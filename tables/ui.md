@@ -17,7 +17,7 @@ Please use [make\_color.md](../functions/make_color.md "mention") to pass colors
 ui.get_mouse_pos(): x: number, y: number | nil
 ```
 
-Get mouse position on the overlay. For two pc setup (e.g. DMA) returns mouse position on the second PC. Returns nil if mouse is not on the overlay.
+Get mouse position on the overlay. For two pc setup returns mouse position on the second PC. Returns nil if mouse is not on the overlay.
 
 Can be called only from the draw callback.
 
