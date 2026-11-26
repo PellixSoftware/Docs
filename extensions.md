@@ -6,4 +6,5 @@ Our version of the Lua API has LuaJIT extensions. You can read about it on the o
 
 
 
-Please note that `ffi` and `package` libraries are disabled until explicitly enabled by the "Allow Unsafe" feature as well as `io` .
+Please note that `ffi` and `package` libraries are disabled unless explicitly enabled by the `FFI (Unsafe)`permission feature as well as `io` .
+
