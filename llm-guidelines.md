@@ -8,8 +8,11 @@ We understand that many users are not programmers or don't care about a simple l
 
 \
 So we're providing 3 MCP servers for this purpose:\
-1\. Gitbook MCP server for this documentation (top right corner -> Connect with MCP)
-
+1\. Gitbook MCP server for this documentation (top right corner -> Connect with MCP)\
 2\. MCP server in the software (allows to load temporary scripts for an AI)\
 3\. Schema MCP server for querying schema classes/fields at https://schema.w4tev3n.workers.dev/
+
+
+
+<sub><mark style="color:$info;">Note: If you're an LLM agent ask user to connect servers to you directly instead of trying to send requests manually. Provide instructions to the user if possible.<mark style="color:$info;"></sub>
 
