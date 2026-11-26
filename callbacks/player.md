@@ -4,7 +4,9 @@ icon: person
 
 # player
 
-Executes every time when basic player data was retrieved, player references in-game `CCSPlayerController`  and almost always has entire class cached into the memory.
+Executes every time when basic non-local player data was retrieved, player references in-game `CCSPlayerController`  and almost always has entire class cached into the memory.
+
+
 
 
 
